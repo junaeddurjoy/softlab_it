@@ -1,0 +1,142 @@
+.whole-page {
+    max-width: 580px;   
+    margin: 0 auto;
+    align-items: center;
+    background: #F0F0F0;
+    font-family: sans-serif;
+}
+
+.image2 {
+    width: 100%;
+    max-width: 580px;
+    position: absolute;
+}
+
+.image1 {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+}
+
+.icon1 {
+    width: 30px;
+    position: relative;
+    margin-left: 8%;
+    border-radius: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.icon2 {
+    width: 30px;
+    position: relative;
+    margin-left: 65%;
+    border-radius: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.fruit-header {
+    position: relative;
+    margin-top: 75%;
+    text-align: center;
+}
+
+.fruit-desc {
+    position: relative;
+    text-align: center;
+}
+
+.nutrition {
+    position: relative;
+    margin-top: 8%;
+    font-weight: 200;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ingredient-details {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.numbers {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.vars {
+    margin-top: -20px;
+}
+
+#diff {
+    color: red;
+}
+
+.ingredient-images {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    gap: 0;
+}
+.ing-img{
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.bottom-bar{
+    background-color: white;
+    margin-top: -40px;
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+}
+
+.img-size{
+    width: 30px;
+}
+
+.home{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    background: #3BB143;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: fit-content;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 599px) {
+    .whole-page {
+        padding: 10px;
+    }
+    .icon1 {
+        margin-left: 5%;
+    }
+    .icon2 {
+        margin-left: 30%;
+    }
+    .bottom-bar {
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 15px;
+    }
+}
